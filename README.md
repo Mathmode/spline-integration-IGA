@@ -4,6 +4,8 @@ This repository contains the code required to reproduce the experimental results
 
 ## Structure of the Repository:
 
+- `splinequadrature.py`: Module defining the main functions implemented the method for quadrature rule discovery: Definition of the basis functions, loss function, parameter initialization, optimization, etc.
+- `Spline Integration.ipynb`: Jupyter Notebook to interactively test the method and visualize the results.
 - `optimal_uniform_rules.csv`: Contains the optimal quadrature rules, in double precision, for all uniform spline spaces with degree up to 16, and up to 50 elements. All possible continuity values are also considered. The file is in csv format, with the following columns:
   - `d`: Degree of the spline space (from 1 to 16).
   - `k`: Continuity between elements (from 0 to `d-1`).
