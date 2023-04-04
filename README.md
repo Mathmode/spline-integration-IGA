@@ -23,6 +23,14 @@ This repository contains the code required to reproduce the experimental results
   - `w`: Weight of each point. Stored in the same way that `x`.
   - `loss`: Loss value obtained for the quadrature rule. The rule is considered to be optimal if `loss < 1e-20`.
 
+## Installation
+
+There's no installation required, as all the relevant methods are implemented in a single module. Still, there are some dependencies required that may be installed with the following command:
+
+`$ pip install -r requirements.txt`
+
+while `pandas` and `matplotlib` are set as requirements, they are only needed to run the interactive Jupyter Notebook `Spline Integration.ipynb`. They can be ignored to use the functionality in `splinequadrature.py`.
+
 
 ## License
 This software is licensed under the GPL-v3 license.
