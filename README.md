@@ -1,6 +1,6 @@
 # Spline Integration
 
-This repository contains the code required to reproduce the experimental results shown in the paper: *T. Teijeiro, A. Hashemian, J.M. Taylor and D. Pardo*, **Machine Learning Discovery of Optimal Quadrature Rules for Isogeometric Analysis**, 2023.
+This repository contains the code required to reproduce the experimental results shown in the paper: *T. Teijeiro, A. Hashemian, J.M. Taylor and D. Pardo*, **Machine Learning Discovery of Optimal Quadrature Rules for Isogeometric Analysis**, *Computer Methods in Applied Mechanics and Engineering*, 2023 ([DOI: 10.1016/j.cma.2023.116310](https://doi.org/10.1016/j.cma.2023.116310)).
 
 ## Structure of the Repository:
 
